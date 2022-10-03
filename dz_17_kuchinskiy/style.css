@@ -1,0 +1,18 @@
+body {
+  background-color: darkslateblue;
+}
+
+.swiper {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 350px;
+  margin-top: 150px;
+  border-radius: 7px;
+}
+
+img {
+  width: 600px;
+  height: 350px;
+  border-radius: 7px;
+}
