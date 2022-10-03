@@ -1,0 +1,33 @@
+body {
+  background-color: #4747a7;
+}
+
+.modal-content {
+  background-color: darkslateblue;
+}
+
+.block-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.btnblock {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  background: #f2f2f2;
+  width: 240px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-left: 125px;
+  margin-top: 40px;
+}
