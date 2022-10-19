@@ -1,0 +1,14 @@
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #175b9c;
+  border-radius: 35px;
+  color: #fff;
+  width: 500px;
+}
+.info {
+  height: 20px;
+  width: 20px;
+}
