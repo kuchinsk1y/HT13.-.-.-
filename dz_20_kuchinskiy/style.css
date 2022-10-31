@@ -1,0 +1,64 @@
+body {
+  background-color: #bdd1eb;
+}
+
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  gap: 40px 70px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+select {
+  background-color: #2b8dc7;
+  color: #fff;
+  font-size: inherit;
+  padding: 0.5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  margin-left: 460px;
+}
+
+.card {
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  background-color: #2b8dc7;
+  color: #f9f3e7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  border-radius: 5px;
+  height: 570px;
+}
+
+.price {
+  color: rgb(216, 203, 203);
+  font-size: 22px;
+}
+
+img {
+  padding-top: 30px;
+  max-width: 100px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #2766c4;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
