@@ -1,0 +1,14 @@
+$primaryColor: darkcyan;
+
+html {
+  font-family: generalFont;
+}
+
+.container {
+  background: url(../images/ghost.jpg);
+  &__subheader {
+    color: $primaryColor;
+    display: flex;
+    justify-content: center;
+  }
+}
