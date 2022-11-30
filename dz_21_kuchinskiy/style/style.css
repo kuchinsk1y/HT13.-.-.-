@@ -1,0 +1,90 @@
+* {
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #46467A;
+} */
+
+body {
+  background: rgb(255, 184, 243)
+    url(https://raw.githubusercontent.com/codeSTACKr/glassmorphism-credit-card/3b0562ab457f2ca260d49ac5ff271dc4fc33870b/img/bg.svg)
+    center/cover;
+  height: 919px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.form-item {
+  margin: 0 0 30px 0;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin: 0 0 15px 0;
+}
+
+.text-input {
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 2em;
+  padding: 1em 0 0.5em 0.5em;
+  border-bottom: 2px solid white;
+}
+
+.select-country {
+  width: 100%;
+  min-height: 50px;
+  padding: 10px;
+  border: 0px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.inline-label {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.inline-item {
+  margin: 5px 0;
+}
+
+.check-input {
+  margin: 30px 0;
+}
+
+.form-button {
+  width: 100%;
+  min-height: 50px;
+  border: 0px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #7767bf;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #5e47c4;
+}
+
+.radio-input,
+.check-input {
+  margin-right: 10px;
+}
